@@ -1,0 +1,28 @@
+#!/usr/bin/sh
+
+if [ -z "$1" ]
+then
+   echo "Need to specify a branch name"
+   exit
+fi
+
+if [ -z "$2" ]
+then
+   echo "Need to specify number of commits to rebase"
+   exit
+fi
+
+echo "Will create a new branch $1_final from $1 and rebase HEAD~$2"
+
+# Switch to the branch
+echo git checkout $1
+
+# Checkout new branch for rebasing
+echo git checkout -b ${1}_final
+
+# Rebase onto master
+echo git rebase --onto master clean $1 ${1}_final
+
+# Rebase interactively to squash commits into one
+echo git rebase -i HEAD~$2
+echo git push -u origin ${1}_final
