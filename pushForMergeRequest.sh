@@ -12,7 +12,7 @@ then
    exit
 fi
 
-echo "Will create a new branch $1_final from $1 and rebase HEAD~$2"
+echo "Will create a new branch ${1}_final from $1 and rebase HEAD~$2"
 
 # Switch to the branch
 echo git checkout $1
