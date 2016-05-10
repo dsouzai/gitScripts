@@ -25,4 +25,4 @@ echo git rebase --onto master clean $1 ${1}_final
 
 # Rebase interactively to squash commits into one
 echo git rebase -i HEAD~$2
-echo git push -u origin ${1}_final
+echo git push origin ${1}_final
