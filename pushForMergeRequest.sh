@@ -15,7 +15,7 @@ fi
 echo "Will create a new branch ${1}_final from $1 and rebase HEAD~$2"
 
 # Sync and update the repos
-echo syncRepos.sh
+echo gitSyncRepos.sh
 
 # Switch to the branch
 echo git checkout $1
