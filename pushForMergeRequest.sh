@@ -40,6 +40,8 @@ echo git rebase -i HEAD~$2
 if [ $PUSH_BRANCH == "1" ]
 then
    echo git push origin ${1}_final
+else
+   # worth echoing the above command
 fi
 
 # Prune
