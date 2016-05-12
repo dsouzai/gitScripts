@@ -45,4 +45,4 @@ else
 fi
 
 # Prune
-echo git prune
+#echo git prune

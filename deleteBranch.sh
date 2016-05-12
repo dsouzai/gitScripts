@@ -18,4 +18,4 @@ git branch -D $1
 git push origin --delete $1
 
 # Prune 
-git prune
+#git prune
