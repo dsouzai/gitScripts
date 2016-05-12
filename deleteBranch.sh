@@ -16,6 +16,3 @@ git branch -D $1
 
 # Delete branch remotely
 git push origin --delete $1
-
-# Prune 
-#git prune

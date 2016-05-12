@@ -43,6 +43,3 @@ then
 else
    # worth echoing the above command
 fi
-
-# Prune
-#echo git prune
