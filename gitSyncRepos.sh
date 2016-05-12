@@ -12,4 +12,4 @@ git pull --rebase upstream master
 git push origin master clean
 
 # Prune because of gc message
-git prune
+#git prune
