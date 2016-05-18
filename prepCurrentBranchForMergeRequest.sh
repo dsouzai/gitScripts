@@ -1,4 +1,4 @@
 #!/usr/bin/sh
 
 currentBranch=`getCurrentBranch.sh`
-pushForMergeRequest.sh $currentBranch
+pushForMergeRequest.sh $currentBranch $1
