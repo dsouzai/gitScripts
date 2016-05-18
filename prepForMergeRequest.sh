@@ -35,6 +35,6 @@ then
 else
    echo 
    echo issue the following when ready:
-   echo git push origin ${1}
+   echo git push --force origin ${1}
    echo
 fi
