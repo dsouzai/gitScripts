@@ -1,7 +1,7 @@
 #!/usr/bin/sh
 
 # Get the current branch
-originalBranch=`git name-rev --name-only HEAD`
+originalBranch=`getCurrentBranch.sh`
 
 # Synch the clean branch
 git checkout clean
