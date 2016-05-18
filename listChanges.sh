@@ -10,4 +10,4 @@ else
 fi
 
 # List changes
-git diff --name-only $FIRST $SECOND
+git diff --name-status $FIRST $SECOND
