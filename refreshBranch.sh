@@ -11,8 +11,14 @@ fi
 
 echo "Will rebase branch $1 onto clean"
 
-# Switch to the clean branch
+# Get the current branch
+originalBranch=`getCurrentBranch.sh`
+
+# Switch to the branch to be rebased
 git checkout $1
 
 # Rebase onto clean
 git rebase clean
+
+# Switch back to the original branch
+git checkout $originalBranch
