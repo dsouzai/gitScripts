@@ -7,7 +7,7 @@ then
 fi
 
 # Sanity check
-. sanityCheck.sh
+. sanityCheck.sh $1
 
 echo "Will create a new branch $1 from clean"
 

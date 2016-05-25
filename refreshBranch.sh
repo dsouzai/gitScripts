@@ -7,7 +7,7 @@ then
 fi
 
 # Sanity check
-. sanityCheck.sh
+. sanityCheck.sh $1
 
 echo "Will rebase branch $1 onto clean"
 

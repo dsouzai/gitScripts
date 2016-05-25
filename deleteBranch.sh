@@ -7,7 +7,7 @@ then
 fi
 
 # Sanity check
-. sanityCheck.sh
+. sanityCheck.sh $1
 
 echo "Will delete branch $1 both locally and remotely"
 

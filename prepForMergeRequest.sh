@@ -14,7 +14,7 @@ else
 fi
 
 # Sanity check
-. sanityCheck.sh
+. sanityCheck.sh $1
 
 # Sync and update the repos
 gitSyncRepos.sh
