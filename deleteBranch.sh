@@ -6,6 +6,9 @@ then
    exit
 fi
 
+# Sanity check
+. sanityCheck.sh
+
 echo "Will delete branch $1 both locally and remotely"
 
 # Switch to the clean branch

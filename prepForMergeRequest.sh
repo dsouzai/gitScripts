@@ -13,6 +13,9 @@ else
    PUSH_BRANCH=1
 fi
 
+# Sanity check
+. sanityCheck.sh
+
 # Sync and update the repos
 gitSyncRepos.sh
 

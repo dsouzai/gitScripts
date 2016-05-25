@@ -6,6 +6,9 @@ then
    exit
 fi
 
+# Sanity check
+. sanityCheck.sh
+
 echo "Will rebase branch $1 onto clean"
 
 # Switch to the clean branch

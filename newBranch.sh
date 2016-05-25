@@ -6,6 +6,9 @@ then
    exit
 fi
 
+# Sanity check
+. sanityCheck.sh
+
 echo "Will create a new branch $1 from clean"
 
 # Switch to the clean branch
