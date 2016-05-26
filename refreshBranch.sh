@@ -20,5 +20,8 @@ git checkout $1
 # Rebase onto clean
 git rebase clean
 
+# Update origin
+git push --force origin $1
+
 # Switch back to the original branch
 git checkout $originalBranch
