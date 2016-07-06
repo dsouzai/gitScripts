@@ -11,5 +11,8 @@ git pull --rebase upstream green
 git checkout master
 git pull --rebase upstream master
 
+# Fetch refs from origin
+git fetch origin
+
 # Switch back to the original branch
 git checkout $originalBranch
