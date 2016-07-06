@@ -1,7 +1,7 @@
 #!/usr/bin/sh
 
 # Sync Local Repo
-gitSyncLocalRepo.sh
+gitUpdateLocalRepo.sh
 
 # Push branches
 git push origin master clean
