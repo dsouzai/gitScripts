@@ -1,18 +1,9 @@
 #!/usr/bin/sh
 
-# Get the current branch
-originalBranch=`getCurrentBranch.sh`
+# Update J9 Repo
+gitUpdateLocalJ9Repo.sh
 
-# Fetch the refs from upstream
-git fetch upstream
-
-# Synch the clean branch
-git checkout clean
-git pull --rebase upstream green
-
-# Synch the master branch
-git checkout master
-git pull --rebase upstream master
-
-# Switch back to the original branch
-git checkout $originalBranch
+# Update OMR Repo
+cd omr
+gitUpdateLocalOMRRepo.sh
+cd ..
