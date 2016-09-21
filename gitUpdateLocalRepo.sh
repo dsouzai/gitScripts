@@ -8,5 +8,3 @@ cd omr
 gitUpdateLocalOMRRepo.sh
 cd ..
 
-# Hack to ignore omr
-git update-index --assume-unchanged omr
