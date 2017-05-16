@@ -1,12 +1,17 @@
 #!/usr/bin/sh
 
-# Sync Local Repo
-gitUpdateLocalRepo.sh
-
-# Push J9 branches
-git push origin master clean
-
-# Push OMR branches
-cd omr
-git push origin master
+# Sync TR Repos
+cd tr.open
+syncTRRepos.sh
 cd ..
+
+# Sync J9 Repo
+cd j9vm
+syncJ9Repos.sh
+cd ..
+
+# Update OMR Repo
+cd omr
+syncOMRRepos.sh
+cd ..
+
