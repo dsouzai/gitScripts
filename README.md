@@ -12,6 +12,15 @@ Branching off 'clean' should mean a lower chance of build failures.
           \
            ----------- <branch name>
 
+The current source layout is:
+
+parentDir
+   tr.open
+   j9vm
+   omr
+
+gitSyncRepos.sh goes to each of those folders and updates each repo.
+
 ```
 
 
