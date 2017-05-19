@@ -1,7 +1,7 @@
 #!/usr/bin/sh
 
 # Sync TR Repos
-cd tr.open
+cd tr.source
 syncTRRepos.sh
 cd ..
 
