@@ -2,16 +2,6 @@ This repo is a personal repo that I'm using to house all my git scripts. I figur
 
 
 ```
-The plan is to have two read-only branches, 'master' and 'clean' (in OMR there is only 'master'). In all repos, 'master' tracks 'upstream/master'. In tr.open, 'clean' tracks 'upstream/green' whereas in j9vm, 'clean' tracks 'upstream/integration'.
-
-Branching off 'clean' should mean a lower chance of build failures.
-
----------------------- master
-    \
-     ----------------- clean
-          \
-           ----------- <branch name>
-
 The current source layout is:
 
 parentDir

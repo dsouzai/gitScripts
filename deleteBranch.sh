@@ -11,7 +11,7 @@ fi
 
 echo "Will delete branch $1 both locally and remotely"
 
-# Switch to the clean branch
+# Switch to master
 git checkout master
 
 # Delete branch locally
