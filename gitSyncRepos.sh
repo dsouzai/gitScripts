@@ -1,17 +1,10 @@
 #!/usr/bin/sh
 
-# Sync TR Repos
-cd tr.source
-syncTRRepos.sh
-cd ..
+for repo in tr.source j9vm omr
+do
 
-# Sync J9 Repo
-cd j9vm
-syncJ9Repos.sh
-cd ..
+   cd $repo
+   syncRepos.sh
+   cd ..
 
-# Update OMR Repo
-cd omr
-syncOMRRepos.sh
-cd ..
-
+done
