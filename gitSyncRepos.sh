@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 
-for repo in omr proxy-openj9
+for repo in omr openj9
 do
 
    cd $repo
