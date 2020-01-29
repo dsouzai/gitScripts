@@ -13,4 +13,4 @@ gitSyncRepos.sh goes to each of those folders and updates each repo.
 ```
 
 
-\- Irwin D'Souza (dsouzai@ca.ibm.com)
+\- Irwin D'Souza (dsouzai.gh@gmail.com)
