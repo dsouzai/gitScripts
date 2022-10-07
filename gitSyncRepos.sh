@@ -1,9 +1,9 @@
 #!/usr/bin/sh
 
 pushd . > /dev/null
-cd /home/dsouzai/dev/gitSync
+cd ~/dev/gitSync
 
-repos="omr:master openj9:master openj9-openjdk-jdk11:openj9 openj9-openjdk-jdk17:openj9 kca:master pi:standalone"
+repos="omr:master openj9:master openj9-openjdk-jdk11:openj9 kca:master pi:standalone"
 
 regex="((\w|\d|-)+):((\w|\d|-)+)"
 
